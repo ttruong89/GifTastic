@@ -1,0 +1,53 @@
+body {
+	background: url("../images/background.png");
+	font-family: Papyrus, fantasy;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.jumbotron {
+	background-color: inherit; 
+	text-align: center;
+}
+.container {
+	background-color: #4b5059;
+	padding: 30px;
+	opacity: 0.9;
+}
+
+#gifsArea {
+	margin-bottom: 70px;
+	margin-top: -50px;
+}
+
+h2 legend{
+	font-size: 30px;
+	color: #ffffff;
+}
+
+label {
+	font-size: 15px;
+}
+
+#topic-input {
+	width: 95px;
+	color: #000000;
+	font-size: 12px;
+}
+
+.topic { /* Adding spacing between dynamically created buttons. */
+	margin: 20px;
+	border-color: #27292d;
+	color: #ffffff;
+}
+
+.gifDiv { /* Div dynamically created in js to handle gifs */
+	float: left;
+	margin: 3px;
+}
+
+.image { /* .image class created dynamically in js */
+	height: 150px;
+	width: 150px;
+}
+
